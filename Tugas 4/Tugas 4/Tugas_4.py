@@ -26,7 +26,7 @@ def list():
 
     b = input("  Pilih Ketinggian Maksimum / Jarak terjauh (k/j)  : ")
     print("\n Senjata : "+mu[a])
-
+    
     if b == "k":
         print("  Menghitung Ketinggian Maksimum {}".format(mu[a]))
         p = float(input("  Input sudut : "))
